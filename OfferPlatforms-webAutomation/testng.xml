@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="in.licious.util.CustomListeners"></listener>
+</listeners>
+  <test name="Test">
+    <classes>
+    <class name="in.licious.BannersTestCases.TC001"/>
+     <class name="in.licious.BannersTestCases.TC002"/> 
+      <class name="in.licious.BannersTestCases.TC003"/>
+       <class name="in.licious.BannersTestCases.TC004"/>
+       <class name="in.licious.BannersTestCases.TC005"/>
+       <class name="in.licious.BannersTestCases.TC006"/>
+       <class name="in.licious.BannersTestCases.TC007"/>
+       <class name="in.licious.BannersTestCases.TC008"/>
+       <class name="in.licious.BannersTestCases.TC009"/>
+      
+      <class name="in.licious.OfferesTestCases.TC001"/>
+      <class name="in.licious.OfferesTestCases.TC002"/>
+      <class name="in.licious.OfferesTestCases.TC003"/>
+      <class name="in.licious.OfferesTestCases.TC004"/>
+      <class name="in.licious.OfferesTestCases.TC005"/>
+      <class name="in.licious.OfferesTestCases.TC006"/>
+      <class name="in.licious.OfferesTestCases.TC007"/>
+      <class name="in.licious.OfferesTestCases.TC008"/>
+      <class name="in.licious.OfferesTestCases.TC009"/>
+      <class name="in.licious.OfferesTestCases.TC010"/>
+      <class name="in.licious.OfferesTestCases.TC011"/>
+      <class name="in.licious.OfferesTestCases.TC012"/>
+      <class name="in.licious.OfferesTestCases.TC013"/>
+     
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
